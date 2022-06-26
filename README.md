@@ -74,3 +74,45 @@ The primary battery pack is 14 of these 'super-cells' connected in series.
 	- 2.1.17 		xx
 	- 2.1.18 		xx
 	- 2.1.19 		xx
+
+## Directory Contents
+```
+**SHL_Pod_PrimaryBMS**
+|
+└───Includes 
+└───Core 
+|   └───Inc 
+|   |   | - it.h
+|   |   | - main.h
+|   |   | - OrionBMSJr.h
+|   |   | - stm32f7xx_hal_conf.h
+|   |
+|   └───Src
+|   |   | - it.c
+|   |   | - main.c
+|   |   | - msp.c
+|   |   | - OrionBMSJr.c
+|   |   | - syscalls.c
+|   |   | - sysmem.c
+|   |   | - system_stm32f7xx.c
+|   |
+|   └───Startup
+|       | - startup_stm32f746zgtx.s
+|
+└───Drivers
+|   └───CMSIS
+|   |	└───Device
+|   |	|   └───ST
+|   |	|       └───STM32F7xx
+|   |	|           └───Include
+|   |	└───Include
+|   └───STM32F7xx_HAL_Driver
+|   	└───Inc
+|   	└───Src
+|
+└───Debug 
+└───Reference Docs
+    └───ARM & STM32 Docs
+    └───Screenshots
+    └───Traces
+```
